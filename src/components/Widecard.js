@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
 
 class Widecard extends Component {
   render() {
@@ -8,7 +7,9 @@ class Widecard extends Component {
         <div class="compdet">
           <h3>{this.props.title}</h3>
           <h4 class="secondtext">
-            <Link to={this.props.url}>{this.props.url}</Link>
+            <a class="red_url" href={this.props.url}>
+              {this.props.url}
+            </a>
           </h4>
         </div>
       </div>

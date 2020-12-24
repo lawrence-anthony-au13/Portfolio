@@ -8,7 +8,7 @@ class Projects extends Component {
         <h1 className="subtopic">My Projects</h1>
         <Widecard
           title="Responsive website using HTML, CSS and JS"
-          url="https://lawrence-anthony-au9.github.io/Chomp-Champ/"
+          url="google.com"
         />
         <Widecard
           title="Currency Exchange Calculator"
